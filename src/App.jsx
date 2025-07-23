@@ -25,8 +25,11 @@ export default function App() {
         <p className="text-xl text-gray-300 mb-6">A fully animated 3D character greeting your users</p>
         <button className="px-6 py-3 my-3 bg-white text-black font-semibold rounded-md shadow hover:bg-gray-200 transition">
           Explore More
-        </button> <button onClick={()=>navigate("/alpha")} className="px-6 py-3 bg-white text-black font-semibold rounded-md shadow hover:bg-gray-200 transition">
+        </button> <button onClick={()=>navigate("/alpha")} className="px-6 py-3 mx-2 bg-white text-black font-semibold rounded-md shadow hover:bg-gray-200 transition">
           alpha XR
+        </button>
+        <button onClick={()=>navigate("/cube")} className="px-6 py-3 bg-white text-black font-semibold rounded-md shadow hover:bg-gray-200 transition">
+          cube
         </button>
       </div>
 
