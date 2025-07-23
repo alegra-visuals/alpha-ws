@@ -4,7 +4,7 @@ import './index.css'
 import App from './App.jsx'
 import { createBrowserRouter,RouterProvider } from 'react-router-dom'
 import Alpha from './webp/Alpha.jsx'
-import Cube from './webp/cube.jsx'
+import Cube from './webp/Cube.jsx'
 import Controller from './webp/Controller.jsx'
 const router = createBrowserRouter([
   {
