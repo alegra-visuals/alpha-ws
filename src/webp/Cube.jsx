@@ -4,7 +4,7 @@ import CubeExperiance from './CubeExperiance'
 import { OrbitControls } from '@react-three/drei'
 function Cube() {
   return (
-    <>
+   
     <div className='h-screen w-full'>
 
 
@@ -18,7 +18,7 @@ function Cube() {
             </Suspense>
         </Canvas>
         </div>
-    </>
+   
   )
 }
 
