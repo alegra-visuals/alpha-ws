@@ -16,11 +16,11 @@ const router = createBrowserRouter([
     element: <Alpha />,
   },
   {
-    path:'cube',
+    path:'/cube',
     element:<Cube/>
   },
   {
-    path:'controller',
+    path:'/controller',
     element:<Controller/>
   },
 ]);
