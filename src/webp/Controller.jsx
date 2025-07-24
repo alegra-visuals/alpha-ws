@@ -5,7 +5,7 @@ function Controller() {
      const [socket,setSocket] = useState(null);
     useEffect(()=>{
         // const newsocket = io("http://127.0.0.1:8080/")
-         const newsocket = io("https://api.alegravisuals.com:8080/")
+         const newsocket = io("https://api.alegravisuals.com/")
         newsocket.on("connect",()=>{
             console.log("connected");
             setSocket(newsocket);
